@@ -1,0 +1,14 @@
+.title-section{
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+}
+
+.title{
+    font-family: 'Dancing Script';
+    font-size: 2.25rem;
+}
+
+.subtitle{
+    font-size: 1.875rem;
+}
