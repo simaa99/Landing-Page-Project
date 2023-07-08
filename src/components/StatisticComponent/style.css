@@ -1,0 +1,28 @@
+.statistic-section {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1.25rem;
+  align-items: center;
+}
+
+.statistic-section > img {
+  width: 5.354rem;
+  height: 4.938rem;
+}
+
+.statistic-section > div {
+  display: flex;
+  flex-direction: column;
+  column-gap: 5px;
+  align-items: center;
+}
+.statistic-section > div > span:first-child {
+  color: #ffce6d;
+  font-weight: 700;
+  font-size: 3rem;
+}
+.statistic-section > div > span:last-child {
+  color: #fffffc;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
