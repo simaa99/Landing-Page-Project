@@ -1,0 +1,52 @@
+.reviews-card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.313rem;
+  padding: 2.375rem 3.625rem 8.688rem;
+  background-color: #1014189d;
+}
+
+.top-review {
+  display: flex;
+  flex-direction: row;
+  column-gap: 3.125rem;
+  align-items: center;
+}
+
+.top-review > img {
+  width: 6.5rem;
+  height: 6.5rem;
+  border-radius: 50%;
+}
+
+.review-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.625rem;
+}
+
+.review-content > span {
+  font-size: 1.125rem;
+  color: #fffffc;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+}
+
+.star-review {
+  display: flex;
+  column-gap: 1.5px;
+}
+
+.star-review > img {
+  width: 0.625rem;
+  height: 0.625rem;
+}
+
+.bottom-review > p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fffffc;
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+}
