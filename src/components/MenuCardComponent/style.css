@@ -3,6 +3,7 @@
   flex-direction: row;
   column-gap: 0.688rem;
   align-items: center;
+  width: 100%;
 }
 
 .card-icon {
@@ -14,11 +15,14 @@
   display: flex;
   column-gap: 1.313rem;
   align-items: center;
+  width: 70%;
 }
 
-.card-menu-content > div {
+.card-menu-content > div:first-of-type {
   display: flex;
   flex-direction: column;
+  width: 50%;
+  max-width: 13rem;
 }
 
 .card-menu-content > div > span:first-child {
@@ -34,7 +38,8 @@
 }
 
 .card-line {
-  width: 7.688rem;
+  width: 20%;
+  max-width: 7rem;
   height: 1px;
   background-color: #ffce6d;
   position: relative;
@@ -42,11 +47,13 @@
 }
 
 .card-menu > span {
+  display: block;
   font-size: 1.25rem;
   font-weight: 700;
   color: #ffce6d;
   position: relative;
   top: -0.2rem;
+  width: 30%;
 }
 
 @media only screen and (max-width: 414px) {
@@ -55,11 +62,11 @@
     height: 3rem;
   }
   .card-menu-content > div > span:first-child {
-    font-size: 0.8rem;
+    font-size: 0.5rem;
   }
 
   .card-menu-content > div > span:last-child {
-    font-size: 0.775rem;
+    font-size: 0.6rem;
   }
 
   .card-line {
@@ -67,6 +74,6 @@
   }
 
   .card-menu > span {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
