@@ -1,0 +1,17 @@
+.special-item {
+  display: flex;
+  column-gap: 4rem;
+  row-gap: 5rem;
+  justify-content: center;
+  margin-top: 4.375rem;
+}
+.specail-section {
+  padding: 1.625rem 0rem 6rem;
+  background-color: #101418b6;
+}
+
+@media (max-width: 1200px) {
+  .special-item {
+    flex-wrap: wrap;
+  }
+}
