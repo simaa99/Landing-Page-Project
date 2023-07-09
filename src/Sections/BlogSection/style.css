@@ -1,0 +1,19 @@
+.Blog-section{
+    padding: 7rem 0rem 4.438rem;
+
+}
+.Blog-item{
+    margin-top: 4.313rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 3.563rem;
+    row-gap: 3.563rem;
+}
+
+@media (max-width: 1200px) {
+    .Blog-item {
+      flex-wrap: wrap;
+    }
+  }
+  
