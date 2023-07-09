@@ -1,0 +1,22 @@
+.menu-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:100%;
+    margin-top: 4.375rem;
+  }
+  
+  .menu-item > * {
+    flex-basis: calc(50% - 10px); 
+    margin-bottom: 20px; 
+  }
+  
+  @media (max-width: 768px) {
+    .menu-item {
+        justify-content: center;
+      }
+    .menu-item > * {
+      flex-basis: 100%; 
+    }
+  }
+  
