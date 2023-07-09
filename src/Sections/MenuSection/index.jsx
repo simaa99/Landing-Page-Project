@@ -7,6 +7,7 @@ import './style.css'
 export default class index extends Component {
   render() {
     return (
+        <div className='menu-section'>
         <Container width={80}> 
          <TitleComponent
          title="Straight From Kitchen"
@@ -25,8 +26,9 @@ export default class index extends Component {
             imageAltCard="Card Image"
           />
         ))}
-        </div>   
+        </div>  
        </Container>
+       </div>
     )
   }
 }

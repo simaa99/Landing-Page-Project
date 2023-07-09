@@ -1,3 +1,8 @@
+.menu-section{
+    padding-top:3.063rem ;
+    padding-bottom:6.938rem ;
+
+}
 .menu-item {
     display: flex;
     flex-wrap: wrap;
