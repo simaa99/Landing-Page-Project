@@ -1,0 +1,21 @@
+.statistic-full-section {
+  padding: 3.5rem 0rem;
+  background-color: #101418a8;
+}
+.statistic-item {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  flex-direction: row;
+  max-width: 50rem;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .statistic-item {
+    flex-direction: column;
+    row-gap: 2rem;
+    align-items: center;
+  }
+}
