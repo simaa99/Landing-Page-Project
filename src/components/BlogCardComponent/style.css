@@ -1,13 +1,13 @@
 .blog-card {
   display: flex;
   flex-direction: column-reverse;
-  width: 33%;
+  width: 24rem;
   background-color: #1014189d;
 }
 
 .top-blog-card > img {
   width: 100%;
-  height: 18.642rem;
+  height: auto;
 }
 
 .bottom-blog-card {
