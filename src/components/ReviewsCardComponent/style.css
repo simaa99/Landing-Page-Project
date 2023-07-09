@@ -4,6 +4,7 @@
   row-gap: 2.313rem;
   padding: 2.375rem 3.625rem 8.688rem;
   background-color: #1014189d;
+  min-width:45.75rem;
 }
 
 .top-review {
@@ -49,4 +50,10 @@
   color: #fffffc;
   letter-spacing: 0.1rem;
   text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  .reviews-card {
+    min-width:100%;
+  }
 }
