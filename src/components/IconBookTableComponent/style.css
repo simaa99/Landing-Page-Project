@@ -1,16 +1,20 @@
 .book-table-icon {
   display: flex;
   flex-direction: row;
+  margin-top: 2rem;
+
 }
 
 .book-table-icon > img:first-of-type {
   width: 15rem;
   position: relative;
   z-index: 1;
+  scale: 1.9;
 }
 .book-table-icon > img:last-of-type {
   width: 12rem;
   position: relative;
-  right: 18rem;
+  right:22rem;
   z-index: 0;
+  scale: 1.9;
 }
