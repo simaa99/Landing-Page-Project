@@ -1,0 +1,26 @@
+.book-table-full {
+  display: flex;
+  background-color: #101418b6;
+  padding: 2.438rem 0rem 2.813rem;
+}
+.book-table-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2.5rem;
+  width: 25rem;
+  margin: 0 auto;
+}
+.right-icon-book {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  left: 22rem;
+}
+.left-icon-book {
+  width: 30%;
+  display: flex;
+  position: relative;
+  right: -1rem;
+}
