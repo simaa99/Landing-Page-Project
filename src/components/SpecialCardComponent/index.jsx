@@ -6,7 +6,7 @@ export default class index extends Component {
     return (
       <div className="card">
         <img src={imageSrc} alt={imageAlt} className="card-icon" />
-        <div class="card-content">
+        <div className="card-content">
           <h2 className="card-title">{cardTitle}</h2>
           <p className="card-description">{cardDescription}</p>
         </div>

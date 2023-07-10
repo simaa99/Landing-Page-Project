@@ -8,7 +8,7 @@ export default class index extends Component {
     return (
       <div className="statistic-full-section">
         <Container width={70}>
-          <div class="statistic-item">
+          <div className="statistic-item">
             {StatisticData.map((item) => (
               <StatisticComponent
                 key={item.id}

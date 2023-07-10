@@ -15,7 +15,7 @@ export default class index extends Component {
             isCenter={true}
             isReverse={false}
           />
-          <div class="Blog-item">
+          <div className="Blog-item">
             {BlogData.map((item) => (
               <BlogCardComponent
                 key={item.id}

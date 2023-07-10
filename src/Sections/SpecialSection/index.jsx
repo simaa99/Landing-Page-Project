@@ -15,7 +15,7 @@ export default class index extends Component {
             isCenter={true}
             isReverse={false}
           />
-          <div class="special-item">
+          <div className="special-item">
             {specialData.map((item) => (
               <SpecialCardComponent
                 key={item.id}
