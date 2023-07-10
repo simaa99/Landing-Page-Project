@@ -7,7 +7,7 @@ import MenuSection from "./Sections/MenuSection";
 import StatisticSection from "./Sections/StatisticSection";
 import AboutSection from "./Sections/AboutSection";
 import CookingSection from "./Sections/CookingSection";
-
+import ComeJoinSection from "./Sections/ComeJoinSection";
 export default class App extends Component {
   render() {
     return (
@@ -15,7 +15,8 @@ export default class App extends Component {
         <AboutSection />
         <SpecialSection />
         <MenuSection />
-        <CookingSection/>
+        <ComeJoinSection />
+        <CookingSection />
         <StatisticSection />
         <ReviewsSection />
         <BlogSection />
