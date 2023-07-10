@@ -8,10 +8,13 @@ import StatisticSection from "./Sections/StatisticSection";
 import AboutSection from "./Sections/AboutSection";
 import CookingSection from "./Sections/CookingSection";
 import ComeJoinSection from "./Sections/ComeJoinSection";
+import HeroSection from "./Sections/HeroSection";
+
 export default class App extends Component {
   render() {
     return (
       <>
+        <HeroSection />
         <AboutSection />
         <SpecialSection />
         <MenuSection />
