@@ -9,6 +9,7 @@ import AboutSection from "./Sections/AboutSection";
 import CookingSection from "./Sections/CookingSection";
 import ComeJoinSection from "./Sections/ComeJoinSection";
 import HeroSection from "./Sections/HeroSection";
+import FooterSection from "./Sections/FooterSection";
 
 export default class App extends Component {
   render() {
@@ -23,6 +24,7 @@ export default class App extends Component {
         <StatisticSection />
         <ReviewsSection />
         <BlogSection />
+        <FooterSection/>
       </>
     );
   }
