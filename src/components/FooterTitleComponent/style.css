@@ -1,0 +1,16 @@
+.footer-title{
+    display: flex;
+    column-gap: 0.75rem;
+    align-items: center;
+}
+.footer-title> img{
+    width: 4.938rem;
+    height: 4.938rem;
+}
+
+.footer-title > span{
+    font-size:1.5rem ;
+    font-weight: 700;
+    color:#FFFCCC ;
+
+}
