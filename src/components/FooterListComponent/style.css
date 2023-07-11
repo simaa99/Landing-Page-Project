@@ -1,0 +1,20 @@
+.footer-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-list > span{
+    color: #FFFFFC;
+    font-size:1.25rem ;
+    font-weight:700 ;
+    display: flex;
+    height: 4.938rem;
+    align-items: center;
+}
+
+.footer-list > ul{
+    color: #FFFFFC;
+    font-size:1rem ;
+    font-weight:400 ;
+    letter-spacing: 0.1rem;
+}
