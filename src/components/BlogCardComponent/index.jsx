@@ -3,10 +3,10 @@ import "./style.css";
 export default class index extends Component {
   render() {
     const { blogImg, blogDesc, blogButton, blogTitle, isReverse } = this.props;
-    const flexDirection = isReverse ? "column-reverse" : "column";
+    const cardClass = isReverse ? "blog-card card-reverse" : "blog-card";
 
     return (
-      <div className="blog-card" style={{ flexDirection }}>
+      <div className={cardClass}>
         <div className="top-blog-card">
           <img src={blogImg} alt="blog-img" />
         </div>

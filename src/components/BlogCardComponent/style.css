@@ -1,8 +1,11 @@
 .blog-card {
   display: flex;
-  flex-direction: column-reverse;
   width: 24rem;
   background-color: #1014189d;
+  flex-direction: column;
+}
+.card-reverse {
+  flex-direction: column-reverse;
 }
 
 .top-blog-card > img {
