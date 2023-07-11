@@ -1,11 +1,13 @@
 .hero-section {
   display: flex;
   flex-direction: row;
-  background-image: url(../../assests//home.svg);
+  background-image: linear-gradient(#10141800, #101418),
+    url(../../assests/home.svg);
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
 }
+
 .hero-content {
   padding: 30.688rem 0rem 10.188rem;
   display: flex;
