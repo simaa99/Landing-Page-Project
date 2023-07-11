@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  column-gap: 3.625rem;
+  align-items: center;
+  background-color: black;
+  margin: 8.188rem auto 0;
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  justify-content: space-between;
+}
+
+.header > img {
+  width: 4.938rem;
+  height: 4.938rem;
+}
+.header > nav > ul {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2.5rem;
+}
+.header > nav > ul > li > a {
+  font-size: 1.125rem;
+  color: #ffffcc;
+  font-weight: 700;
+}
+.search {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.btn-book > button {
+  width: 17rem;
+  background-color: #a08040;
+  border: none;
+  padding: 30px 0px;
+  color: white;
+  font-size: 1.063rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
